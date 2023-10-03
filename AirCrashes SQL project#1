@@ -1,3 +1,8 @@
+-- AirplaneCrashes Data from Kaggle ( https://www.kaggle.com/datasets/jogwums/air-crashes-full-data-1908-2023)
+-- using SQL to sort through it and tableau to show trends
+
+-- https://public.tableau.com/app/profile/reys.aden/vizzes
+
 
 -- Retrieve all incidents in the year 1916
 SELECT * FROM aircrashesFullData$ WHERE Year = 1916;
